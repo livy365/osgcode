@@ -24,6 +24,7 @@
     <ProjectGuid>{5b104800-a41c-4f8f-a14e-db0abd9d2e61}</ProjectGuid>
     <RootNamespace>osgcode</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>osg_CNC</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
