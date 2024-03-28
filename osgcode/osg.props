@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(OSG_EARTH_SDK)\FreeEarthSDK\include;$(OSG_EARTH_SDK)\OpenSceneGraph\include;$(OSG_EARTH_SDK)\OSGEARTH\include;$(OSG_EARTH_SDK)\3rdParty_Qt5.12.7_x64_VS19\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OSG_EARTH_SDK)\FreeEarthSDK\lib;$(OSG_EARTH_SDK)\OpenSceneGraph\lib;$(OSG_EARTH_SDK)\OSGEARTH\lib;$(OSG_EARTH_SDK)\3rdParty_Qt5.12.7_x64_VS19\lib;$(QT_PATH)/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Qt5Cored.lib;Qt5Guid.lib;Qt5Xmld.lib;Qt5Multimediad.lib;Qt5OpenGLd.lib;opengl32.lib;glu32.lib;Qt5Networkd.lib;Qt5XmlPatternsd.lib;FeShelld.lib;FeManagerd.lib;FeUtilsd.lib;FeEarthd.lib;osgQtd.lib;osgd.lib;osgAudiod.lib;osgDBd.lib;osgGAd.lib;osgViewerd.lib;OpenThreadsd.lib;FeKitsd.lib;FeOceand.lib;FeExtNoded.lib;FeTritond.lib;FeEffectsd.lib;osgEarthd.lib;FeSilverLiningd.lib;js_d.lib;ul_d.lib;Winmm.lib;fmodex64_vc.lib;nvcored.lib;nvimaged.lib;nvmathd.lib;nvttd.lib;poshd.lib;squishd.lib;jpeg.lib;log4cppd.lib;libpng16.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
